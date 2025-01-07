@@ -6,7 +6,7 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include <gamesir_vx2_layouts.dtsi>
+#include “gamesir_vx2_layouts.dtsi“
 
 / {
     chosen {
