@@ -6,7 +6,7 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include <gamesir_vx2-layouts.dtsi>
+#include "gamesir_vx2-layouts.dtsi"
 
 / {
     chosen {
@@ -57,4 +57,5 @@
 
 &layout_6x7_2u {
     transform = <&matrix_transform_6x7_2u>;
+    kscan = <&kscan0>;
 };
