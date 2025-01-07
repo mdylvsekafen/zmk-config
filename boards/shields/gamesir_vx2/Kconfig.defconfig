@@ -1,0 +1,9 @@
+# Copyright (c) 2021 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_GAMESIR_VX2
+
+config ZMK_KEYBOARD_NAME
+    default "GamesirVX2"
+
+endif

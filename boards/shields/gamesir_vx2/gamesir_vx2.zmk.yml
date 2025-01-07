@@ -1,0 +1,9 @@
+file_format: "1"
+id: gamesir_vx2
+name: GamesirVX2
+type: shield
+url: https://boardsource.xyz
+requires: [pro_micro]
+features:
+  - keys
+  - studio
