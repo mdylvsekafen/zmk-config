@@ -11,10 +11,10 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,physical-layout = &physical_layout_0;
+        zmk,physical-layout = &gamesir_layout;
     };
 
-    matrix_transform_6x7_2u: keymap_transform_0 {
+    giamesir_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <7>;
         rows = <6>;
@@ -55,7 +55,7 @@
     };
 };
 
-&layout_6x7_2u {
-    transform = <&matrix_transform_6x7_2u>;
+&gamesir_layout {
+    transform = <&giamesir_transform>;
     kscan = <&kscan0>;
 };
