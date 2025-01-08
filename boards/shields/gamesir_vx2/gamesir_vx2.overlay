@@ -14,22 +14,6 @@
         zmk,physical-layout = &gamesir_layout;
     };
 
-    position_map0 {
-        compatible = "zmk,physical-layout-position-map";
-        complete;
-
-        layout0: layout0 {
-            physical-layout = <&gamesir_layout>;
-            positions
-                = < 0  1  2  3  4  5>
-                , <30  6  7  8  9 10 11>
-                , <12 13 14 15 16 17>
-                , <18 19 20 21 22 23>
-                , <24 25 26 27 28 29>
-                , <31 32 33 34 35>
-                ;
-        };
-    };
 
     gamesir_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
@@ -49,7 +33,7 @@
             RC(2,0)    RC(2,1)  RC(2,2)  RC(2,3)  RC(2,4)   RC(2,5)
             RC(3,0)     RC(3,1)  RC(3,2)  RC(3,3) RC(3,4)   RC(3,5)
             RC(4,0)     RC(4,1)  RC(4,2)  RC(4,3)  RC(4,4)  RC(4,5)
-            RC(5,1) RC(5,2)  RC(5,3)      RC(5,4)           RC(5,4)
+            RC(5,1) RC(5,2)  RC(5,3)      RC(5,4)           RC(5,5)
             >;
     };
 
